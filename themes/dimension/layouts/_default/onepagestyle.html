@@ -1,0 +1,12 @@
+<article id="{{ .File.TranslationBaseName }}">
+  <h1>{{ .Title }}</h1>
+  {{ if eq .Title "Curriculum Vitae" }}
+      {{ if eq .Lang "de" }}
+        {{  .Render "cvde"  }}
+      {{ else }}
+        {{  .Render "cv"  }}
+      {{ end }}
+  {{ else }}
+    {{ .Content }}
+  {{ end }}
+</article>

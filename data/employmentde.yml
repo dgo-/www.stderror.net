@@ -1,0 +1,26 @@
+name: Beruferfahrung
+source:
+  - prof: System Administrator
+    place: optivo GmbH
+    time: 2011 bis heute
+    description: 
+      - name: "Systemseitige Verwaltung der Unternehmenswebseiten"
+      - name: "Betreuung der heterogenen Arbeitsplatz Rechner (Windows, Linux)"
+      - name: "Management von Netzwerkkomponenten wie z.B. Firewalls, Switches und WLAN-Access-Points"
+      - name: "Verwaltung zentraler Dienste wie DNS, DHCP, Active Directory"
+      - name: "Monitoring der Server und Netzwerk Infrastruktur"
+      - name: "Automatisierung von Betriebsabläufen"
+      - name: "Betreuung von Mailserver inkl. Spamfilter"
+      - name: "Konfigurationsmanagement der Linux Server/Clients"
+
+  - prof: Fachinformatiker für Systemintegration
+    place: Universität Paderborn
+    time: 2008 bis 2011
+    description:
+      - name: "Betreuen einer Webbasierten e-Learning Plattform"
+      - name: "Benutzerverwaltung der Mitarbeiter und Studenten"
+      - name: "Verwaltung zentraler Dienste wie DNS, DHCP, LDAP, Kerberos"
+      - name: "Betreuung  einer VMware vSphere Umgebung"
+      - name: "Management von internen Webdiensten z.B wikis, Issue-Tracking-System"
+      - name: "Monitoring der Server und Netzwerk Infrastruktur"
+      - name: "Betreuung der heterogenen Arbeitsplatz Rechner (Windows, Linux)"

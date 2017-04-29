@@ -1,0 +1,13 @@
+name: Bildung
+source:
+  - title: "Ausbildung: Fachinformatiker für Systemadministration"
+    univ: Universität Paderborn
+    place: Paderborn, DE
+    date: 2008 bis 2011
+    description: "Abschlussnote: 84%" 
+
+  - title: "Mittlere Reife"
+    univ: Gesamtschule Paderborn
+    place: Paderborn, DE
+    date: 2003 bis 2008
+    description: "Abschlussnote: 2,4" 

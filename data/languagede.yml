@@ -1,0 +1,9 @@
+name: Sprachen
+source:
+  - name: [German]
+    stars: 5
+    word: Muttersprache
+
+  - name: [English]
+    stars: 3
+    word: fließend

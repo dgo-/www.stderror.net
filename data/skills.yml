@@ -1,0 +1,43 @@
+name: Skills
+type:
+  - title: "Services"
+    source:
+      - name: [Webserver, DNS, Mailserver, Active Directory]
+        stars: 5
+      - name: [DHCP, Backup]
+        stars: 4
+      - name: [Database]
+        stars: 3
+
+  - title: "Networking"
+    source:
+      - name: ["Firewall", IPv4, IPv6]
+        stars: 5
+      - name: [VPN, Switches] 
+        stars: 4
+
+  - title: "Tools"
+    source:
+      - name: [puppet, nagios]
+        stars: 5
+      - name: [graphite, munin]
+        stars: 4
+      - name: [VMware, Openvz]
+        stars: 4
+      - name: [jenkins, git]
+        stars: 3
+
+  - title: "operating system"
+    source:
+      - name: [Linux, macOS]
+        stars: 5
+      - name: [Windows, Freebsd]
+        stars: 5
+
+  - title: "Programming"
+    source:
+      - name: [Bash, Perl]
+        stars: 5
+      - name: [Python, C]
+        stars: 2
+

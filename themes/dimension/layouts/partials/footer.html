@@ -1,0 +1,25 @@
+
+				<!-- Footer -->
+					<footer id="footer">
+            <p> Design based on: <a href="https://html5up.net">HTML5 UP</a>. Powered by <a href="https://www.gohugo.io/">Hugo.</a><br>
+            {{ range .Data.Pages.ByWeight }}
+                {{ if isset .Params "menu" }} 
+                {{ if isset .Params "link" }}<a href="{{ index .Params "link" }}"{{else}}<a href="#{{ .File.TranslationBaseName }}"{{end}}>{{ if .GetParam "menuname" }}{{ .GetParam "menuname" }}{{ else }}{{ .Title }}{{ end }}  </a>
+								{{ else }}
+                {{ end }}
+          {{ end }}
+					</p>
+					</footer>
+
+			</div>
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="/js/skel.min.js"></script>
+			<script src="/js/util.js"></script>
+			<script src="/js/main.js"></script>
+			{{ template "_internal/google_analytics_async.html" . }}
+
+	</body>
+</html>

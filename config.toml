@@ -1,0 +1,54 @@
+# webpage config
+
+# url
+baseurl = "https://www.stderror.net/"
+
+#language
+languageCode = "en-us"
+defaultContentLanguage = "en"
+
+# writer
+title = "Daniel Goeke"
+
+# Define how many pages appear per site
+#paginate = 5
+
+# google analytics
+googleAnalytics = "UA-61061309-4"
+
+# create rebots.txt
+enableRobotsTXT=            true
+
+# output dir
+publishDir=                 "public"
+
+# rss
+disableRSS = true
+
+# set theme
+theme = "dimension"
+
+[params]
+  title = "Daniel Goeke"
+  logoimage = "/images/me.png"
+
+[[params.social]]
+  medium = "instagram"
+  icon = "instagram"
+  link = "https://www.instagram.com/dgo_gram/"
+
+[[params.social]]
+  medium = "github"
+  icon = "github"
+  link = "https://github.com/dgo-"
+
+[languages]
+[languages.en]
+languageName = "English"
+weight = 1
+description = 'I am a German system administrator living in Berlin <br> "I’m a slow walker, but I never walk back."<sub>Abraham Lincoln</sub>'
+
+[languages.de]
+languageName = "Deutsch"
+weight = 2
+description = 'Ich bin ein System-Administrator und lebe in Berlin <br> "Ich gehe langsam, aber wie zurück."<sub>Abraham Lincoln</sub>' 

@@ -1,0 +1,29 @@
+name: Employment
+source:
+  - prof: System Administrator
+    place: optivo GmbH
+    time: 2011 to today
+    description: 
+      - name: "technical operation of the websites"
+      - name: "provide IT support for the employee"
+      - name: "Central management of the network Infrastructure including switches, Firewalls, and several branch offices"
+      - name: "Operate a Windows domain with DNS and DHCP"
+      - name: "Monitoring of the servers and network infrastructure"
+      - name: "Automation of operating processes"
+      - name: "Management of the email system"
+      - name: "Configuration management with puppet"
+      - name: "Operation of heterogeneous computers (Windows, Linux)"
+      - name: "Order hardware and software"
+
+  - prof: Specialist for system integration
+    place: University Paderborn
+    time: 2008 to 2011
+    description:
+      - name: "operation of a e-Learning platform"
+      - name: "User management for employees and students"
+      - name: "Administration of central services like DNS, DHCP, LDAP, Kerberos"
+      - name: "Management of a VMware vSphere virtualization environment"
+      - name: "Management from internal services  (wikis, Issue-Tracking-System)"
+      - name: "Monitoring of the servers and network infrastructure"
+      - name: "Provide IT support for the employee"
+      - name: "Operation of heterogeneous computers (Windows, Linux)"

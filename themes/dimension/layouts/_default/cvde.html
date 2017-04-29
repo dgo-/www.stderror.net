@@ -1,0 +1,60 @@
+  <h2 style="border-bottom: 1px solid white; width: 100%; display: block; text-align: right">{{ .Site.Data.employmentde.name }}</h2>
+  {{ range .Site.Data.employmentde.source }}
+    <cvblock>
+      <cvblock-head>
+        <h3 style="margin: 0;">{{ .prof }}</h3>
+        <p style="margin: 0; text-align: right">{{ .place }} - {{ .time }}</p>
+      </cvblock-head>
+    <p>
+    <ul>
+    {{ range .description }}
+    <li> {{ .name }}
+    {{ end }}
+    </ul>
+    </p>
+    </cvblock>
+  {{ end }}
+
+  
+  <h2 style="border-bottom: 1px solid white; width: 100%; display: block; text-align: right">{{ .Site.Data.educationde.name }}</h2>
+  {{ range .Site.Data.educationde.source }}
+    <cvblock>
+      <cvblock-head>
+        <h3 style="margin: 0;">{{ .title }}</h3>
+        <p style="margin: 0; text-align: right">{{ .univ }} - {{ .date }}</p>
+      </cvblock-head>
+    <p>{{ .description }}</p>
+    </cvblock>
+  {{ end }}
+  
+  <h2 style="border-bottom: 1px solid white; width: 100%; display: block; text-align: right">{{ .Site.Data.skills.name }}</h2>
+    <cvblock>
+    {{ range .Site.Data.skills.type }}
+      <cvblock-head>
+      <h3>{{ .title }}</h3>
+      </cvblock-head>
+        {{ range .source }}
+        <p>
+          {{ range $i, $seq := (seq .stars) }}<i class="fa fa-star"></i>{{ end }}{{ range $i, $seq := (seq (sub 5 (int .stars))) }}<i class="fa fa-star-o"></i>{{ end }}
+            &nbsp;&nbsp;<em>{{ delimit .name "</em>, <em>" "</em> & <em>" }}</em>
+        </p>
+        {{ end }}
+    {{ end }}
+    </cvblock>
+
+  <h2 style="border-bottom: 1px solid white; width: 100%; display: block; text-align: right">{{ .Site.Data.languagede.name }}</h2>
+    <cvblock>
+      <cvblock-head>
+      <h3>{{ .Site.Data.languagede.title }}</h3>
+      </cvblock-head>
+    {{ range .Site.Data.languagede.source }}
+    <p>
+      {{ range $i, $seq := (seq .stars) }}<i class="fa fa-star"></i>{{ end }}{{ range $i, $seq := (seq (sub 5 (int .stars))) }}<i class="fa fa-star-o"></i>{{ end }}
+      &nbsp;&nbsp;<em>{{ delimit .name "</em>, <em>" "</em> & <em>" }} ({{  .word }})</em>
+    </p>
+
+    {{ end }}
+    </cvblock>
+
+  <h2 style="border-bottom: 1px solid white; width: 100%; display: block; text-align: right">{{ .Site.Data.hobbiesde.name }}</h2>
+    <p>{{ delimit .Site.Data.hobbiesde.source ", " }}</p>
