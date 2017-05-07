@@ -46,9 +46,9 @@ theme = "dimension"
 [languages.en]
 languageName = "English"
 weight = 1
-description = 'I am a German system administrator living in Berlin <br> "I’m a slow walker, but I never walk back."<sub>Abraham Lincoln</sub>'
+description = 'I am a German system administrator living in Berlin' 
 
 [languages.de]
 languageName = "Deutsch"
 weight = 2
-description = 'Ich bin ein System-Administrator und lebe in Berlin <br> "Ich gehe langsam, aber wie zurück."<sub>Abraham Lincoln</sub>' 
+description = 'Ich bin ein System-Administrator und lebe in Berlin'

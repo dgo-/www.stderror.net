@@ -1,9 +1,9 @@
-name: Language
+name: Languages
 source:
-  - name: [Deutsch]
+  - name: [German]
     stars: 5
     word: native
 
-  - name: [Englisch]
+  - name: [English]
     stars: 3
     word: fluent

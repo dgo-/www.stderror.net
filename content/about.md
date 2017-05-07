@@ -4,6 +4,6 @@ menuname = "About"
 weight = 10
 draft = false
 +++
-Born and raised in Paderborn a city in west Germany. Get get my first computer with round 10 years and fell in love with it. After i finished my apprenticeship as Specialist for system integration at the university Paderborn. I want see the world and want to live in a big city so I moved to Berlin. There I start working as system administrator.
+I was born and raised in Paderborn in West Germany. I got my first computer at the age of 10 years and I fell in love with technology.  Therefor the apprenticeship as Specialist for System Integration at the university of Paderborn was a logical consequence. I then left my hometown and moved to the vivid city of Berlin where I am working as System Administrator.
 
-In my free time I do a lot of Sport. I did my first marathon already, let's see what comes next. But I also like to spent my time by digging into some computer stuff. 
+In my free time I am dedicated to sports and I already absolved my first marathon. Let’s see what next personal and professional experiences are next.
