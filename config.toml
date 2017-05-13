@@ -17,7 +17,7 @@ title = "Daniel Goeke"
 googleAnalytics = "UA-61061309-4"
 
 # create rebots.txt
-enableRobotsTXT=            true
+enableRobotsTXT=            false
 
 # output dir
 publishDir=                 "public"
