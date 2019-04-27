@@ -4,6 +4,8 @@ type:
     source:
       - name: [Webserver, DNS, Mailserver, Active Directory]
         stars: 5
+      - name: [Loadbalancer]
+        stars: 4
       - name: [DHCP, Backup]
         stars: 4
       - name: [Database]
@@ -11,33 +13,39 @@ type:
 
   - title: "Networking"
     source:
-      - name: ["Firewall", IPv4, IPv6]
+      - name: ["Firewall: Sophos, iptables, Fortinet"]
         stars: 5
-      - name: [VPN, Switches] 
+      - name: ["VPN: IPSec, OpenVPN"] 
+        stars: 5
+      - name: [ "IPv4, IPv6"]
+        stars: 5
+      - name: ["Switche, VLAN"]
         stars: 4
 
   - title: "Tools"
     source:
-      - name: [puppet, nagios]
+      - name: [puppet]
         stars: 5
-      - name: [graphite, munin]
+      - name: [graphite, munin, nagios]
         stars: 4
-      - name: [VMware, Openvz]
+      - name: [VMware, Openvz, docker]
         stars: 4
       - name: [jenkins, git]
         stars: 3
 
   - title: "operating system"
     source:
-      - name: [Linux, macOS]
+      - name: [Linux, Windows]
         stars: 5
-      - name: [Windows, Freebsd]
-        stars: 5
+      - name: [macOS]
+        stars: 4
+      - name: [FreeBSD]
+        stars: 3
 
   - title: "Programming"
     source:
-      - name: [Bash, Perl]
+      - name: [Bash, Perl, Python]
         stars: 5
-      - name: [Python, C]
+      - name: [C, Go]
         stars: 2
 

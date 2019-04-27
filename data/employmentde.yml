@@ -1,8 +1,17 @@
 name: Beruferfahrung
 source:
+  - prof: Network Engineer
+    place: Payback GmbH
+    time: 2017 bis heute
+    description: 
+      - name: "Aufbau einer Firewall Automasierung im Rahmen eines Infrastruktur as Code Projektes"
+      - name: "Verantwortlich für das Peering mit den Partner"
+      - name: "Betreunung von Firewall Clustern"
+      - name: "Pflege von F5 Loadbalancern"
+      - name: "Routing im Rechnenzentrum"
   - prof: System Administrator
     place: optivo GmbH
-    time: 2011 bis heute
+    time: 2011 bis 2017
     description: 
       - name: "Verwaltung zentraler Dienste wie DNS, DHCP, Active Directory"
       - name: "Management von Netzwerkkomponenten wie z.B. Firewalls, Switches und WLAN-Access-Points"
