@@ -9,14 +9,13 @@ menu = "footer"
 Information in accordance with section 5 TMG
 
 Daniel Goeke  
-Friedrichstraße 232  
-10969 Berlin  
+Bruggspergerstraße 15  
+81545 München  
 
 **Contact:**  
-Telephone: +49 (0) 30 25931638  
+Telephone: +49 0151 70058056  
 E-Mail: dgo+blog[at]stderror.net  
 Internetadresse: https://blog.stderror.net/  
-
 
 Person responsible for content in accordance with 55 Abs. 2 RStV
 
