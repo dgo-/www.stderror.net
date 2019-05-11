@@ -20,7 +20,7 @@ googleAnalytics = "UA-61061309-4"
 enableRobotsTXT=            false
 
 # output dir
-publishDir=                 "public"
+publishDir= "public"
 
 # rss
 disableRSS = true
